@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/PabloA1A/Cities-in-the-World/issues"
   },
-  "homepage": "https://github.com/PabloA1A/Cities-in-the-World#readme"
+  "homepage": "https://github.com/PabloA1A/Cities-in-the-World#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.77.4"
+  }
 }
