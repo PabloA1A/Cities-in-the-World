@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/styles/style.css">
-    <title>Cities in the World</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/styles/style.css">
+  <title>Cities in the World</title>
 </head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand display-4" href="#">Cities in the World</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Cities in the World</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          </ul>
+          <form class="d-flex" role="search">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -23,113 +31,168 @@
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link disabled">Contact</a>
               </li>
             </ul>
-          </div>
+          </form>
         </div>
-      </nav>
-
-      <div class="full-width-limited-height-container">
-        <img src="./public/assets/img/Tokio.jpeg" class="img-fluid" alt="City Tokio">
       </div>
+    </nav>
+  </header>
 
-      <div class="container-fluid">
-        <div class="row no-gutters" style="height: 100vh;">
-          <div class="col-3">
-            <div class="card-container">
-              <div class="card border-dark mb-3">
-                <div class="card-header">Istanbul</div>
-                <div class="card-body">
-                  <img src="./public/assets/img/Estambul, Turquía.jpeg" class="img-fluid" alt="City Istanbul">
-                </div>
-              </div>
-              <div class="card border-dark mb-3">
-                <div class="card-header">London</div>
-                <div class="card-body">
-                  <img src="./public/assets/img/Londres, Reino Unido.jpeg" class="img-fluid" alt="City London">
-                </div>
-              </div>
-              <div class="card border-dark mb-3">
-                <div class="card-header">Dubai</div>
-                <div class="card-body">
-                  <img src="./public/assets/img/Dubái, Emiratos Árabes Unidos.jpeg" class="img-fluid" alt="City Dubai">
-                </div>
-              </div>
-              <div class="card border-dark mb-3">
-                <div class="card-header">Antalya</div>
-                <div class="card-body">
-                  <img src="./public/assets/img/Antalya, Turquía.jpeg" class="img-fluid" alt="City Antalya">
-                </div>
-              </div>
-              <div class="card border-dark mb-3">
-                <div class="card-header">Paris</div>
-                <div class="card-body">
-                  <img src="./public/assets/img/Paris, Francia.jpeg" class="img-fluid" alt="City Paris">
-                </div>
-              </div>
-              <div class="card border-dark mb-3">
-                <div class="card-header">Hong Kong</div>
-                <div class="card-body">
-                  <img src="./public/assets/img/Hong Kong.jpeg" class="img-fluid" alt="City Hong Kong">
-                </div>
-              </div>
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="bd-placeholder-img" width="100%" height="100%" src="./public/assets/img/Tokio.jpeg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+        </img>
+          <div class="container">
+            <div class="carousel-caption">
             </div>
           </div>
-      
-          <div class="col-9">
-            <div class="card-grid">
+        </div>
+      </div>
+    </div>
+    <div class="row p-5">
+      <div class="col-4 mt-5 mb-5 border border-dark border-2">
+        <h2>Cities</h2>
+        <div class="card text-bg-secondary mb-3">
+          <img src="./public/assets/img/Estambul .webp" alt="City Istanbul" class="bd-placeholder-img" width="100%" height="100%" 
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+        </img>
+          <div class="position-relative">
+            <h5 class="position-absolute bottom-0 end-0">Istanbul</h5>
+          </div>
+        </div>
+        <div class="card text-bg-secondary mb-3">
+          <img src="./public/assets/img/Londres, Reino Unido.jpeg"  alt="City London" class="bd-placeholder-img" width="100%" height="100px"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+        </img>
+          <div class="position-relative">
+            <h5 class="position-absolute bottom-0 end-0">London</h5>
+          </div>
+        </div>
+        <div class="card text-bg-secondary mb-3">
+          <img src="./public/assets/img/Dubái, Emiratos Árabes Unidos.jpeg" alt="City Dubai" class="bd-placeholder-img" width="100%" height="100px"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          </img>
+          <div class="position-relative">
+            <h5 class="position-absolute bottom-0 end-0">Dubai</h5>
+          </div>
+        </div>
+        <div class="card text-bg-secondary mb-3">
+          <img src="./public/assets/img/Antalya, Turquía.jpeg"  alt="City Antalya" class="bd-placeholder-img" width="100%" height="100px"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+        </img>
+          <div class="position-relative">
+            <h5 class="position-absolute bottom-0 end-0">Antalya</h5>
+          </div>
+        </div>
+        <div class="card text-bg-secondary mb-3">
+          <img src="./public/assets/img/Paris, Francia.jpeg" alt="City Paris" class="bd-placeholder-img" width="100%" height="100px"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+        </img>
+          <div class="position-relative">
+            <h5 class="position-absolute bottom-0 end-0">Paris</h5>
+          </div>
+        </div>
+        <div class="card text-bg-secondary mb-3">
+          <img src="./public/assets/img/Hong Kong.jpeg" alt="City Hong Kong" class="bd-placeholder-img" width="100%" height="100px"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+        </img>
+          <div class="position-relative">
+            <h5 class="position-absolute bottom-0 end-0">Hong Kong</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="container pb-5 pt-5">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
               <div class="card h-100">
-                <img src="./public/assets/img/Estambul, Turquía.jpeg" class="img-fluid" alt="City Istanbul">
+                <img src="./public/assets/img/Estambul .webp" alt="City Istanbul" class="bd-placeholder-img" width="100%" height="100%" 
+                  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <rect width="100%" height="100%" fill="#777" />
+              </img>
                 <div class="card-body">
                   <p class="card-text">Istanbul is a city that connects two continents, Europe and Asia, across the Bosphorus Strait. It is known for its rich history that spans from ancient Constantinople to modern Istanbul. The city is home to impressive monuments such as the Blue Mosque, Hagia Sophia Basilica and Topkapi Palace, as well as vibrant markets and unique cuisine that fuses Eastern and Western influences.</p>
-                  <div class="card-footer">
-                  <button type="button" class="btn btn-info">Istanbul</button>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary" type="button">Istanbul</button>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="col">
               <div class="card h-100">
-                <img src="./public/assets/img/Londres, Reino Unido.jpeg" class="img-fluid" alt="City London">
+                <img src="./public/assets/img/Londres, Reino Unido.jpeg" alt="City London" class="bd-placeholder-img" width="100%" height="100%" 
+                  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <rect width="100%" height="100%" fill="#777" />
+              </img>
                 <div class="card-body">
                   <p class="card-text">London is one of the most important and cosmopolitan cities in the world. As the capital of the United Kingdom, it is a globally renowned cultural, financial and political center. With iconic landmarks such as Big Ben, Buckingham Palace, and the London Eye, London is also renowned for its cultural diversity, West End theaters, world-class museums such as the British Museum and a vibrant fashion and music scene.</p>
-                  <div class="card-footer">
-                  <button type="button" class="btn btn-info">London</button>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary" type="button">London</button>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="col">
               <div class="card h-100">
-                <img src="./public/assets/img/Dubái, Emiratos Árabes Unidos.jpeg" class="img-fluid" alt="City Dubai">
+                <img src="./public/assets/img/Dubái, Emiratos Árabes Unidos.jpeg" alt="City Dubai" class="bd-placeholder-img" width="100%" height="100%" 
+                  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <rect width="100%" height="100%" fill="#777" />
+              </img>
                 <div class="card-body">
                   <p class="card-text">Dubai is a futuristic city in the middle of the desert, known for its impressive skyscrapers, luxurious shopping malls and unique tourist attractions such as the Burj Khalifa, the world's tallest building, and the man-made Palm Jumeirah archipelago. It is a center of global commerce and luxury tourism, offering experiences ranging from desert safaris to high-end shopping and vibrant nightlife.</p>
-                  <div class="card-footer">
-                  <button type="button" class="btn btn-info">Dubai</button>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary" type="button">Dubai</button>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="col">
               <div class="card h-100">
-                <img src="./public/assets/img/Antalya, Turquía.jpeg" class="img-fluid" alt="City Antalya">
+                <img src="./public/assets/img/Antalya, Turquía.jpeg" alt="City Antalya" class="bd-placeholder-img" width="100%" height="100%" 
+                  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <rect width="100%" height="100%" fill="#777" />
+              </img>
                 <div class="card-body">
                   <p class="card-text">Antalya is a coastal city in southern Turkey, famous for its white sandy beaches and turquoise waters of the Mediterranean Sea. It is a popular tourist destination thanks to its year-round warm climate, its well-preserved Roman ruins such as those of Perge and Aspendos, as well as its old town with cobblestone streets, boutiques and restaurants overlooking the sea.</p>
-                  <div class="card-footer">
-                  <button type="button" class="btn btn-info">Antalya</button>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary" type="button">Antalya</button>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="col">
               <div class="card h-100">
-                <img src="./public/assets/img/Paris, Francia.jpeg" class="img-fluid" alt="City Paris">
+                <img src="./public/assets/img/Paris, Francia.jpeg" alt="City Paris" class="bd-placeholder-img" width="100%" height="100%" 
+                  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <rect width="100%" height="100%" fill="#777" />
+              </img>
                 <div class="card-body">
                   <p class="card-text">Paris is the city of love and light, known for its elegance, history and culture. It is home to the iconic Eiffel Tower, Notre-Dame Cathedral, the Louvre (the most visited museum in the world) and tree-lined avenues such as the Champs-Elysées. Paris is famous for its refined cuisine, haute couture fashion, stunning art and romantic atmosphere that attracts visitors from all over the world.</p>
-                  <div class="card-footer">
-                  <button type="button" class="btn btn-info">Paris</button>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary" type="button">Paris</button>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="col">
               <div class="card h-100">
-                <img src="./public/assets/img/Tokio.jpeg" class="img-fluid" alt="City Hong Kong">
+                <img src="./public/assets/img/Tokio.jpeg" alt="City Hong Kong" class="bd-placeholder-img" width="100%" height="100%" 
+                  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <rect width="100%" height="100%" fill="#777" />
+              </img>
                 <div class="card-body">
                   <p class="card-text">Hong Kong es una región administrativa especial de China, conocida por ser un centro financiero global y un puerto internacional. Es una vibrante metrópolis que combina rascacielos modernos con tradiciones chinas antiguas. Hong Kong es famosa por su espectacular horizonte, su vida nocturna animada, su comida callejera deliciosa, mercados bulliciosos como el Ladies' Market y su diversidad cultural única.</p>
-                  <div class="card-footer">
-                  <button type="button" class="btn btn-info">Hong Kong</button>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary" type="button">Hong Kong</button>
                   </div>
                 </div>
               </div>
@@ -137,73 +200,91 @@
           </div>
         </div>
       </div>
-
-      <div class="container mt-4">
-        <h2 class="text-center">Most Popular Restaurant</h2>
-        <div class="custom-horizontal-card-container d-flex justify-content-center flex-wrap">
-            <div class="custom-horizontal-card-col">
-                <div class="custom-horizontal-card card">
-                    <img src="./public/assets/img/Noma (Copenhagen, Denmark).jpeg" class="custom-horizontal-card-img-top" alt="...">
-                    <div class="custom-horizontal-card-body card-body">
-                        <h5 class="custom-horizontal-card-title card-title">Noma (Copenhagen, Denmark)</h5>
-                        <p class="custom-horizontal-card-text card-text">Founded by chef René Redzepi, Noma has been a world reference in gastronomy for its innovative Nordic cuisine. The restaurant is known for its focus on local and seasonal ingredients, as well as its creative presentation and combination of flavors. Noma has been awarded multiple Michelin stars and has topped the list of the World's 50 Best Restaurants on several occasions.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="custom-horizontal-card-col">
-                <div class="custom-horizontal-card card">
-                    <img src="./public/assets/img/Geranium (Copenhague, Dinamarca).webp" class="custom-horizontal-card-img-top" alt="...">
-                    <div class="custom-horizontal-card-body card-body">
-                        <h5 class="custom-horizontal-card-title card-title">Geranium (Copenhagen, Denmark)</h5>
-                        <p class="custom-horizontal-card-text card-text">Also located in Copenhagen, Geranium is led by chef Rasmus Kofoed. This three Michelin-starred restaurant is noted for its focus on modern Danish haute cuisine. Geranium is located on the eighth floor of the Parken soccer stadium, offering panoramic views of the city. Kofoed's dishes are known for their artistic presentation and meticulous use of organic and biodynamic ingredients.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="custom-horizontal-card-col">
-                <div class="custom-horizontal-card card">
-                    <img src="./public/assets/img/Asador Etxebarri (Atxondo, España).webp" class="custom-horizontal-card-img-top" alt="...">
-                    <div class="custom-horizontal-card-body card-body">
-                        <h5 class="custom-horizontal-card-title card-title">Asador Etxebarri (Atxondo, Spain)</h5>
-                        <p class="custom-horizontal-card-text card-text">Located in the small town of Atxondo in the Basque Country, Asador Etxebarri is famous for its grilled cuisine. Chef Victor Arguinzoniz uses traditional grilling techniques to enhance the natural flavors of high quality ingredients. With a focus on simplicity and authenticity, dishes range from fresh seafood to meats and vegetables, all prepared to perfection over coals.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="custom-horizontal-card-col">
-                <div class="custom-horizontal-card card">
-                    <img src="./public/assets/img/Central (Lima, Perú).jpeg" class="custom-horizontal-card-img-top" alt="...">
-                    <div class="custom-horizontal-card-body card-body">
-                        <h5 class="custom-horizontal-card-title card-title">Central (Lima, Peru)</h5>
-                        <p class="custom-horizontal-card-text card-text">Central, run by chefs Virgilio Martínez and Pía León, is known for its exploration of Peruvian ecosystems through gastronomy. Central's tasting menu takes diners on a journey through Peru's diverse altitudes, from the sea to the mountains to the jungle. Local and unconventional ingredients play a crucial role in each dish, reflecting the country's biodiversity and cultural richness.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
-    <div class="custom-container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-              </a>
-              <span class="mb-3 mb-md-0 text-body-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
-                <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/></svg> 2024 Pablo Abad</span>
+
+    <div class="bg-secondary text-dark pt-5">
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="d-flex justify-content-center"><img src="./public/assets/img/Noma (Copenhagen, Denmark).jpeg"  class="bd-placeholder-img rounded-circle" width="140"
+                height="140" role="img" aria-label="Placeholder: 140x140"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#990045" />
+            </img>
+            </div>
+
+            <h2 class="fw-normal text-center">Noma (Copenhagen, Denmark)</h2>
+            <p class="text-center">Founded by chef René Redzepi, Noma has been a world reference in gastronomy for its innovative Nordic cuisine. The restaurant is known for its focus on local and seasonal ingredients, as well as its creative presentation and combination of flavors. Noma has been awarded multiple Michelin stars and has topped the list of the World's 50 Best Restaurants on several occasions.</p>
           </div>
-  
-          <div class="col-md-4 d-flex justify-content-end">
-            <a href="#" class="text-body-secondary me-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-buildings" viewBox="0 0 16 16">
-              <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"/>
-              <path d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"/>
-            </svg></a>
-            <a href="#" class="text-body-secondary me-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket3-fill" viewBox="0 0 16 16">
-              <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.468 15.426.943 9h14.114l-1.525 6.426a.75.75 0 0 1-.729.574H3.197a.75.75 0 0 1-.73-.574z"/>
-            </svg></a>
-            <a href="#" class="text-body-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bus-front-fill" viewBox="0 0 16 16">
-              <path d="M16 7a1 1 0 0 1-1 1v3.5c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.5 2.5 0 0 1-1-2V8a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1V2.64C1 1.452 1.845.408 3.064.268A44 44 0 0 1 8 0c2.1 0 3.792.136 4.936.268C14.155.408 15 1.452 15 2.64V4a1 1 0 0 1 1 1zM3.552 3.22A43 43 0 0 1 8 3c1.837 0 3.353.107 4.448.22a.5.5 0 0 0 .104-.994A44 44 0 0 0 8 2c-1.876 0-3.426.109-4.552.226a.5.5 0 1 0 .104.994M8 4c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9s3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44 44 0 0 0 8 4m-3 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0m8 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m-7 0a1 1 0 0 0 1 1h2a1 1 0 1 0 0-2H7a1 1 0 0 0-1 1"/>
-            </svg></a>
+          <div class="col-lg-3">
+            <div class="d-flex justify-content-center"><img src="./public/assets/img/Geranium (Copenhague, Dinamarca).webp" class="bd-placeholder-img rounded-circle" width="140"
+                height="140" role="img" aria-label="Placeholder: 140x140"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#990045" />
+            </img>
+            </div>
+
+            <h2 class="fw-normal text-center">Geranium (Copenhagen, Denmark)</h2>
+            <p class="text-center">Also located in Copenhagen, Geranium is led by chef Rasmus Kofoed. This three Michelin-starred restaurant is noted for its focus on modern Danish haute cuisine. Geranium is located on the eighth floor of the Parken soccer stadium, offering panoramic views of the city. Kofoed's dishes are known for their artistic presentation and meticulous use of organic and biodynamic ingredients.</p>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex justify-content-center"><img src="./public/assets/img/Asador Etxebarri (Atxondo, España).webp" class="bd-placeholder-img rounded-circle" width="140"
+                height="140" role="img" aria-label="Placeholder: 140x140"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#990045" />
+            </img>
+            </div>
+
+            <h2 class="fw-normal text-center">Asador Etxebarri (Atxondo, Spain)</h2>
+            <p class="text-center">Located in the small town of Atxondo in the Basque Country, Asador Etxebarri is famous for its grilled cuisine. Chef Victor Arguinzoniz uses traditional grilling techniques to enhance the natural flavors of high quality ingredients. With a focus on simplicity and authenticity, dishes range from fresh seafood to meats and vegetables, all prepared to perfection over coals.</p>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex justify-content-center"><img src="./public/assets/img/Central (Lima, Perú).jpeg"  class="bd-placeholder-img rounded-circle" width="140"
+                height="140" role="img" aria-label="Placeholder: 140x140"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#990045" />
+            </img>
+            </div>
+
+            <h2 class="fw-normal text-center">Central (Lima, Peru)</h2>
+            <p class="text-center">Central, run by chefs Virgilio Martínez and Pía León, is known for its exploration of Peruvian ecosystems through gastronomy. Central's tasting menu takes diners on a journey through Peru's diverse altitudes, from the sea to the mountains to the jungle. Local and unconventional ingredients play a crucial role in each dish, reflecting the country's biodiversity and cultural richness.</p>
+          </div>
         </div>
-      </footer>
-  </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <hr class="featurette-divider">
+    </div>
+    <footer class="container">
+      <p class="float-end"><a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-buildings" viewBox="0 0 16 16">
+          <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"/>
+          <path d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"/>
+        </svg></a>
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket3-fill" viewBox="0 0 16 16">
+            <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.468 15.426.943 9h14.114l-1.525 6.426a.75.75 0 0 1-.729.574H3.197a.75.75 0 0 1-.73-.574z"/>
+          </svg></a>
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bus-front-fill" viewBox="0 0 16 16">
+            <path d="M16 7a1 1 0 0 1-1 1v3.5c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.5 2.5 0 0 1-1-2V8a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1V2.64C1 1.452 1.845.408 3.064.268A44 44 0 0 1 8 0c2.1 0 3.792.136 4.936.268C14.155.408 15 1.452 15 2.64V4a1 1 0 0 1 1 1zM3.552 3.22A43 43 0 0 1 8 3c1.837 0 3.353.107 4.448.22a.5.5 0 0 0 .104-.994A44 44 0 0 0 8 2c-1.876 0-3.426.109-4.552.226a.5.5 0 1 0 .104.994M8 4c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9s3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44 44 0 0 0 8 4m-3 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0m8 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m-7 0a1 1 0 0 0 1 1h2a1 1 0 1 0 0-2H7a1 1 0 0 0-1 1"/>
+          </svg></a>
+      </p>
+      <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/></svg> 2024 Pablo Abad &middot;</p>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </html>
