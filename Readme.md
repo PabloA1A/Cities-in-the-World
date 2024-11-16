@@ -6,14 +6,14 @@
 
 Este proyecto está actualmente en desarrollo. Algunas características pueden no estar completas y pueden ocurrir cambios significativos en el código.
 
+## Descripción
+
+"Cities in the World" es una aplicación web que presenta información sobre diversas ciudades del mundo. Utiliza Bootstrap para el diseño y la maquetación, proporcionando una interfaz de usuario moderna y receptiva. Este proyecto es ideal para aprender y practicar el uso de frameworks CSS como Bootstrap, así como para explorar la integración de imágenes y contenido dinámico en una página web.
+
 ![alt text](Home1.png)
 ![alt text](Home2.png)
 ![alt text](Home3.png)
 ![alt text](Home4.png)
-
-## Descripción
-
-"Cities in the World" es una aplicación web que presenta información sobre diversas ciudades del mundo. Utiliza Bootstrap para el diseño y la maquetación, proporcionando una interfaz de usuario moderna y receptiva. Este proyecto es ideal para aprender y practicar el uso de frameworks CSS como Bootstrap, así como para explorar la integración de imágenes y contenido dinámico en una página web.
 
 ## Tecnologías Utilizadas
 
