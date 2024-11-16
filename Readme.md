@@ -25,9 +25,9 @@ Este proyecto está actualmente en desarrollo. Algunas características pueden n
 
 ## Estructura del Proyecto
 
- ```sh
- .DS_Store .gitignore index.html package.json public/ .DS_Store assets/ .DS_Store fonts/ icons/ img/ .DS_Store logos/ pages/ scripts/ app.js styles/ style.css Readme.md src/ components/ sass/ services/ apis/ storage/ ts/
- `````
+```sh
+.DS_Store .gitignore index.html package.json public/ .DS_Store assets/ .DS_Store fonts/ icons/ img/ .DS_Store logos/ pages/ scripts/ app.js styles/ style.css Readme.md src/ components/ sass/ services/ apis/ storage/ ts/
+`````
 
 
 ## Instalación
@@ -36,21 +36,21 @@ Para instalar y configurar el proyecto, sigue estos pasos:
 
 1. Clona el repositorio:
 
-   ```sh
-   git clone https://github.com/PabloA1A/Cities-in-the-World.git
-   `````
+```sh
+git clone https://github.com/PabloA1A/Cities-in-the-World.git
+`````
 
 2. Navega al directorio del proyecto:
 
-  ```sh
-   cd Cities-in-the-World
-   `````
+```sh
+cd Cities-in-the-World
+`````
 
 3. Instala las dependencias necesarias:
 
-  ```sh
-   npm install
-   `````
+```sh
+npm install
+`````
 
 ## Uso
 
@@ -75,4 +75,3 @@ Este proyecto está licenciado bajo la Licencia ISC. Consulta el archivo LICENSE
 ```sh
 Pablo Abad
 ```
-
